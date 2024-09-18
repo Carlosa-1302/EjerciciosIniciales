@@ -21,6 +21,18 @@ public class Ejercicio2_1 : MonoBehaviour
         bool alumnoRepetidor;
         char letra;
         int minutos;
+        string matriculaCoche;
+        bool mayorDeEdad;
+        int codigoPostal;
+        char genero;
+        int numeroDeHijos;
+        int tallaCamisa;
+        float precio;
+        string mensaje;
+        bool mayorEdad;
+        int dias;
+        int contador;
+        char tallaCamiseta;
 
     }
 
