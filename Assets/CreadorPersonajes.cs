@@ -19,7 +19,7 @@ public class CreadorPersonajes : MonoBehaviour
         //link´s life
         link.Vida = 100;
 
-        mario.Vida = 50;
+       // mario.Vida = 50;
 
         //mario no se puede usar por que no es un "Personaje" es un "GameObject" ARRIBA
 
@@ -31,7 +31,7 @@ public class CreadorPersonajes : MonoBehaviour
         link.Velocidad = 100;
 
         link.Mover(3, 0, -1);
-        mario.Mover(0, 9, 8);
+       // mario.Mover(0, 9, 8);
 
         transform.Rotate(new Vector3(9, 8, 1));
 
