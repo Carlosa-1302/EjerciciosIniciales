@@ -10,18 +10,20 @@ public class Ejercicio2_2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(vidas);
-        Debug.Log(exp);
-        resultado
+        calcularSuma(1,5);
+        calcularResta(5,1);
 
     }
 
     // Update is called once per frame
-    void Update()
+    void calcularSuma(int vidas, int exp)
     {
-        int resultadoSuma(int vidas + int exp);
-        {
-
-        }
+        int resultadoSuma = vidas + exp;
+        Debug.Log(resultadoSuma);
+    }
+    void calcularResta(int vidas, int exp)
+    {
+        int resultadoResta = vidas - exp;
+        Debug.Log(resultadoResta);
     }
 }
