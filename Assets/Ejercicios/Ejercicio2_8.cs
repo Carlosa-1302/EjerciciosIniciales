@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ejercicio2_8 : MonoBehaviour
 {
+    int vida = 120;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -11,7 +13,7 @@ public class Ejercicio2_8 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void turnos(int vida)
     {
         
     }
