@@ -8,15 +8,18 @@ public class Ejercicio4_2 : MonoBehaviour
     string apellido1;
     string apellido2;
     int edad;
+
     // Start is called before the first frame update
     void Start()
     {
-        construirNombre(carlos, andres, ordoñez, 25)
+        string nombreCompleto = construirNombre( "carlos", "ordoñez","juma",12);
+        Debug.Log( nombreCompleto);
     }
 
     // Update is called once per frame
-    void construirNombre(string nombre, string apellido1, string apellido2, int edad)
+     string  construirNombre(string nombre, string apellido1, string apellido2, int edad)
     {
-       Debug.Log("esta perosan se llama" +  nombre + apellido1+ apellido2 + " y tiene " + edad + " años");  
+        string fraseNombre = ( "la persona se llama " + nombre+" " +apellido1+" " + apellido2 + " y tiene " + edad + " años");
+        return fraseNombre;
     }
 }
