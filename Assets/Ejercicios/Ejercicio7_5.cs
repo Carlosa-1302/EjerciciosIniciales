@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio_7_5 : MonoBehaviour
+public class Ejercicio7_5 : MonoBehaviour
 {
     [SerializeField] int valor;
     int numero = 1;
