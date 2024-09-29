@@ -12,14 +12,16 @@ public class Ejercicio7_6 : MonoBehaviour
     {
         while (numero <= num)
         {
-            Debug.Log("el numero actual es " + numero);
+            Debug.Log("el numero actual while es " + numero);
             numero++;
         }
+
         
-        for (; numero >= num; numero++)
+        for (; numero <= num; numero++)
         {
-            Debug.Log("el numero actual es " + numero);
+            Debug.Log("el numero actual for es " + numero);
         }
+        
     }
 
     // Update is called once per frame
