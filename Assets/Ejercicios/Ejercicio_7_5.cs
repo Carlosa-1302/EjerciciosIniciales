@@ -14,6 +14,10 @@ public class Ejercicio_7_5 : MonoBehaviour
             Debug.Log("el numero actual es " + numero);
             numero++;
         }
+        for (int numero = 1; numero <= valor; numero++)
+        {
+            Debug.Log("el numero actual es " + numero);
+        }
     }
 
     // Update is called once per frame
